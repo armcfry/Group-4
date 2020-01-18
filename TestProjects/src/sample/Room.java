@@ -18,33 +18,10 @@ public class Room extends Group {
         room = new Rectangle();
         room.setWidth(width);
         room.setHeight(height);
-        room.setX(300);
-        room.setY(300);
+        room.setX(0);
+        room.setY(0);
         room.setFill(javafx.scene.paint.Color.RED);
 
-//        Path path = new Path();
-//
-//        int startX = 300;
-//        int startY = 300;
-//
-//        MoveTo moveTo = new MoveTo(startX, startY);
-//        startY += height;
-//        LineTo line1 = new LineTo(startX, startY);
-//        startX -= width;
-//        LineTo line2 = new LineTo(startX, startY);
-//        startY -= height;
-//        LineTo line3 = new LineTo(startX, startY);
-//        startX += width;
-//        LineTo line4 = new LineTo(startX, startY);
-//
-//        path.getElements().add(moveTo);
-//        path.getElements().addAll(line1, line2, line3, line4);
-
-
-//        Rectangle r = new Rectangle();
-//        r.setWidth(this.width);
-//        r.setHeight(this.height);
-//
         getChildren().add(room);
         //getChildren().add(path);
         makeDraggable();
@@ -57,19 +34,26 @@ public class Room extends Group {
     }
 
     private void makeDraggable() {
+
+        this.setPickOnBounds(true);
+
         this.setOnMousePressed(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                room.setX(Math.round(event.getSceneX()/50.0) * 50);
-                room.setY(Math.round(event.getSceneY()/50.0) * 50);
+                room.setX(Math.round(event.getSceneX()/*/50.0) * 50*/));
+                room.setY(Math.round(event.getSceneY()/*/50.0) * 50*/));
+
+                event.consume();
             }
         });
 
         this.setOnMouseDragged(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
-                room.setX(Math.round(event.getSceneX()/50.0) * 50);
-                room.setY(Math.round(event.getSceneY()/50.0) * 50);
+                room.setX((Math.round(event.getX()/25.0) * 25) - (width / 2));
+                room.setY((Math.round(event.getY()/25.0) * 25) - (height / 2));
+
+                event.consume();
             }
         });
     }
