@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -67,7 +70,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1WXrFVRR80bdvTm56eMyEKvZIhy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -84,6 +91,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -91,7 +99,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -198,24 +206,43 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="194" key="GridCell.Tab.0.bottom" timestamp="1579311362966">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="522" y="181" key="#Notifications" timestamp="1579550636429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="181" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579550636429" />
+    <state x="736" y="283" key="FileChooserDialogImpl" timestamp="1579546063041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="283" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579546063041" />
+    <state width="1674" height="266" key="GridCell.Tab.0.bottom" timestamp="1579574694703">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579311362966" />
-    <state width="1342" height="194" key="GridCell.Tab.0.center" timestamp="1579311362965">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1674" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579574694703" />
+    <state width="1674" height="266" key="GridCell.Tab.0.center" timestamp="1579574694703">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579311362965" />
-    <state width="1342" height="194" key="GridCell.Tab.0.left" timestamp="1579311362965">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1674" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579574694703" />
+    <state width="1674" height="266" key="GridCell.Tab.0.left" timestamp="1579574694703">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579311362965" />
-    <state width="1342" height="194" key="GridCell.Tab.0.right" timestamp="1579311362965">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1674" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579574694703" />
+    <state width="1674" height="266" key="GridCell.Tab.0.right" timestamp="1579574694703">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1342" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579311362965" />
+    <state width="1674" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579574694703" />
+    <state x="457" y="163" key="SettingsEditor" timestamp="1579546104578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="457" y="163" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1579546104578" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
