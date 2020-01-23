@@ -22,8 +22,8 @@ public class Resizer extends Circle {
             @Override
             public void handle(MouseEvent event) {
 
-                parent.Widen(1);
-                parent.Resize();
+                //parent.Widen(1);
+                //parent.Resize();
 
                 event.consume();
             }
@@ -36,8 +36,8 @@ public class Resizer extends Circle {
                 double newY = (Math.round(event.getY()/25.0) * 25);
 
                 if (getId().equals("RIGHT") || getId().equals("LEFT")) {
-                    parent.Widen(Math.abs(newX));
-                    parent.Resize();
+                    //parent.Widen(Math.abs(newX));
+                    //parent.Resize();
                 }
 
                 event.consume();
